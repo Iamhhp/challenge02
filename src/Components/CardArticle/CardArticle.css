@@ -1,0 +1,38 @@
+.card {
+  width: 30rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: #f0f0f0;
+
+  img {
+    width: 100%;
+  }
+
+  .title-card {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-top: 1rem;
+    padding-right: 2rem;
+    font-size: 2.4rem;
+
+    .icon {
+      font-size: 4rem;
+      color: #6527a2;
+    }
+  }
+
+  p.desc {
+    font-size: 1.6rem;
+    text-align: justify;
+    font-weight: 700;
+    padding: 1rem 2.5rem 3rem 2.5rem;
+  }
+}

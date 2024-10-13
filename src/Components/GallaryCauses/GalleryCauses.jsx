@@ -45,7 +45,7 @@ function GalleryCauses() {
 
         <div className='sec-l'>
           <Offer title='ویزای تحصیلی' img={image01} />
-          <Offer title='ویزای تحصیلی' img={image01} />
+          <Offer title='آفر ویژه فرتاک' img={image02} />
         </div>
       </div>
     </>
