@@ -1,0 +1,66 @@
+.sec-gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: center;
+
+  padding: 3rem 14rem;
+  background-color: #f0f0f0;
+
+  .sec-r {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-self: center;
+
+    position: relative;
+
+    .title-gallery {
+      width: fit-content;
+      font-size: 1.4rem;
+      color: white;
+      padding: 2rem 6rem 2rem 0rem;
+
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 2;
+    }
+
+    .my-swiper {
+      width: 70rem;
+
+      .swiper-button-next::after,
+      .swiper-button-prev::after {
+        font-size: 3rem;
+        font-weight: bolder;
+        color: white;
+      }
+
+      .swiper-pagination {
+        padding-bottom: 3rem;
+
+        .swiper-pagination-bullet {
+          width: 2rem;
+          height: 2rem;
+          border-radius: 50%;
+        }
+
+        .swiper-pagination-bullet-active {
+          width: 2rem;
+          height: 2rem;
+          background-color: rgba(0, 0, 0, 0.55);
+        }
+      }
+    }
+  }
+
+  .sec-l {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 3rem;
+  }
+}

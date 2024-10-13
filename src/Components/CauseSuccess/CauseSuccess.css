@@ -1,13 +1,13 @@
 .cause-success {
-  width: 80rem;
+  width: 70rem;
   display: flex;
   flex-flow: row nowrap;
   align-items: stretch;
   justify-content: stretch;
 
-  margin: auto;
   padding: 6rem;
-  background-color: rgb(124, 75, 174);
+  border-radius: 1rem;
+  background-color: #7c4bae;
 
   .information {
     display: flex;
@@ -22,7 +22,7 @@
 
     .desc-1,
     .desc-2 {
-      width: 45rem;
+      width: 40rem;
       font-size: 1.4rem;
       font-weight: 600;
       text-align: justify;
