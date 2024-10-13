@@ -1,4 +1,5 @@
 import Hero from '../../Components/Hero/Hero';
+import ServiceUs from '../../Components/ServiveUs/ServiceUs';
 import University from '../../Components/University/University';
 
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
     <>
       <Hero />
       <University />
+      <ServiceUs />
     </>
   );
 }
