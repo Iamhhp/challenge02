@@ -1,0 +1,43 @@
+.videos-pictures {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+
+  .title-videos,
+  .title-pictures {
+    width: fit-content;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .my-swiper {
+    width: 48rem;
+    margin-left: 1.5rem;
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+      font-size: 3rem;
+      font-weight: bolder;
+      color: white;
+    }
+
+    .swiper-pagination {
+      padding-bottom: 5rem;
+
+      .swiper-pagination-bullet {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.85);
+      }
+
+      .swiper-pagination-bullet-active {
+        width: 2rem;
+        height: 2rem;
+        background-color: rgba(255, 255, 255, 0.95);
+      }
+    }
+  }
+}
