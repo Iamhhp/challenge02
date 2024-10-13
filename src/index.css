@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Yekan';
+  src: url(./Assets/fonts/Yekan.ttf) format(TrueType);
+}
+
+@font-face {
+  font-family: 'Lalezar';
+  src: url(./Assets/fonts/Lalezar.ttf) format(TrueType);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +19,8 @@ body {
   width: 100vw;
   overflow-x: hidden;
 
+  font-family: 'Yekan', sans-serif, serif;
+  /* font-weight: 500; */
   font-size: 62.5%;
 }
 
