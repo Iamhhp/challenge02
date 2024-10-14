@@ -29,6 +29,7 @@
 
     .my-swiper {
       width: 70rem;
+      border-radius: 1rem;
 
       .swiper-button-next::after,
       .swiper-button-prev::after {

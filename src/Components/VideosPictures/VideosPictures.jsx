@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import CardVideo from '../CardVideo/CardVideo';
 import CardPicture from '../CardPicture/CardPicture';
 import IconUnderline from '../IconUderline/IconUnderline';
@@ -21,7 +21,14 @@ function VideosPictures() {
           <h3>ویدئوها:</h3>
           <IconUnderline />
         </div>
-        <Swiper pagination navigation modules={[Pagination, Navigation]} className='my-swiper'>
+        <Swiper
+          spaceBetween={20}
+          pagination
+          navigation
+          autoplay={{ delay: 1000, pauseOnMouseEnter: true }}
+          modules={[Pagination, Navigation, Autoplay]}
+          className='my-swiper'
+        >
           <SwiperSlide>
             <CardVideo />
           </SwiperSlide>
@@ -45,7 +52,15 @@ function VideosPictures() {
           <h3>تصاویر:</h3>
           <IconUnderline />
         </div>
-        <Swiper pagination navigation modules={[Pagination, Navigation]} className='my-swiper'>
+
+        <Swiper
+          spaceBetween={20}
+          pagination
+          navigation
+          autoplay={{ delay: 1100, pauseOnMouseEnter: true }}
+          modules={[Pagination, Navigation, Autoplay]}
+          className='my-swiper'
+        >
           <SwiperSlide>
             <CardPicture />
           </SwiperSlide>

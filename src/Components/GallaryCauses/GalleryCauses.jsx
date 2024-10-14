@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import Offer from '../Offer/Offer';
 import IconUnderline from '../IconUderline/IconUnderline';
 
@@ -24,7 +24,14 @@ function GalleryCauses() {
             <IconUnderline />
           </div>
 
-          <Swiper pagination navigation modules={[Pagination, Navigation]} className='my-swiper'>
+          <Swiper
+            spaceBetween={20}
+            pagination
+            navigation
+            autoplay={{ delay: 1200, pauseOnMouseEnter: true }}
+            modules={[Pagination, Navigation, Autoplay]}
+            className='my-swiper'
+          >
             <SwiperSlide>
               <CauseSuccess />
             </SwiperSlide>
