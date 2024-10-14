@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/challenge02/static/css/main.55a2f6b4.css",
-    "main.js": "/challenge02/static/js/main.6674251b.js",
+    "main.css": "/challenge02/static/css/main.1023d982.css",
+    "main.js": "/challenge02/static/js/main.c90ae372.js",
     "static/media/Lalezar.ttf": "/challenge02/static/media/Lalezar.241ca811c53de4ed36a4.ttf",
     "static/media/img03.jpg": "/challenge02/static/media/img03.93312bd60fb2ad3bff65.jpg",
     "static/media/img04.jpg": "/challenge02/static/media/img04.a053a0d6904460fe6472.jpg",
@@ -16,11 +16,11 @@
     "static/media/icon-footer-hero.jpg": "/challenge02/static/media/icon-footer-hero.8c7fad4950f6d382115c.jpg",
     "static/media/icon-uni03.jpg": "/challenge02/static/media/icon-uni03.0f6397b6fc71695df673.jpg",
     "index.html": "/challenge02/index.html",
-    "main.55a2f6b4.css.map": "/challenge02/static/css/main.55a2f6b4.css.map",
-    "main.6674251b.js.map": "/challenge02/static/js/main.6674251b.js.map"
+    "main.1023d982.css.map": "/challenge02/static/css/main.1023d982.css.map",
+    "main.c90ae372.js.map": "/challenge02/static/js/main.c90ae372.js.map"
   },
   "entrypoints": [
-    "static/css/main.55a2f6b4.css",
-    "static/js/main.6674251b.js"
+    "static/css/main.1023d982.css",
+    "static/js/main.c90ae372.js"
   ]
 }
